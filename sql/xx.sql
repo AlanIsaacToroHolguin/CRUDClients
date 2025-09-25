@@ -1,6 +1,6 @@
-CREATE DATABASE supermercado;
+CREATE DATABASE clientes;
 
-USE supermercado;
+USE clientes;
 
 CREATE TABLE clientes (
     id_cliente INT PRIMARY KEY AUTO_INCREMENT,
@@ -12,3 +12,6 @@ CREATE TABLE clientes (
 );
 
 INSERT INTO clientes (nombre, email, telefono, direccion) VALUES
+('Juan Pérez', 'juanperez@example.com', '3001234567', 'Calle 123 #45-67'),
+('María Gómez', 'mariagomez@example.com', '3019876543', 'Carrera 10 #20-30'),
+('Carlos López', 'carloslopez@example.com', '3024567890', 'Avenida 15 #50-40');
