@@ -14,6 +14,8 @@ Este proyecto es una **API RESTful** desarrollada con **Node.js** y **Express**,
 - Node.js
 - Express.js
 - Mysql
+- Swagger
+  
 
 ## 🚀 Instalación
 
